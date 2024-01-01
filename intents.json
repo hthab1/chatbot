@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good day",
+        "greetings",
+        "what's up?",
+        "how is it going?"
+      ],
+      "responses": ["Hello", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "farewell", "take care"],
+      "responses": ["Goodbye", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "appreciate it",
+        "thanks so much"
+      ],
+      "responses": ["You're welcome!", "No problem!", "Glad I could help!"]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "tell me about yourself",
+        "who are you?",
+        "what do you do?",
+        "introduce yourself"
+      ],
+      "responses": [
+        "I am a virtual assistant.",
+        "I'm here to assist you.",
+        "I'm just a program designed to help with tasks."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "what's the weather like?",
+        "tell me the weather",
+        "weather forecast",
+        "how's the weather today?"
+      ],
+      "responses": [
+        "I'm sorry, I don't have access to real-time weather information.",
+        "You may want to check a weather website or app for the latest updates."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "tell me a joke",
+        "say something funny",
+        "make me laugh",
+        "joke time"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I used to play piano by ear, but now I use my hands and fingers."
+      ]
+    }
+  ]
+}
